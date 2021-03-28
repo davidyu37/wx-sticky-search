@@ -1,0 +1,51 @@
+/**index.wxss**/
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40rpx;
+  transition: all .3s;
+}
+
+.header-container.sticky {
+ background: white;
+ padding: 30rpx;
+}
+
+.logo {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.sticky .logo {
+  display: none;
+}
+
+.search-container {
+  margin-top: 40rpx;
+  width: 100%;
+  transition: all .3s;
+}
+
+.sticky .search-container {
+  margin: 0;
+  width: 70%;
+}
+
+.search-bar {
+  border: 2rpx solid white;
+  border-radius: 40rpx;
+  padding: 20rpx 40rpx;
+  background: rgba(0,0,0, .7);
+}
+
+.sticky .search-bar {
+  background: #ddd;
+}
+
+.background-image {
+  height: 200vh;
+  width: 100vw;
+}

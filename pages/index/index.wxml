@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<!-- Header -->
+<view class="header-container {{passedHeader ? 'sticky' : ''}}">
+  <image class="logo" src="/assets/sc-logo.png" />
+  <view class="search-container">
+    <view class="search-bar">
+      <input placeholder="大家都在搜" />
+    </view>
+  </view>
+</view>
+<!-- Content -->
+<image src="/assets/beach.jpg" class="background-image"/>
